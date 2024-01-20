@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #060331, #191621, #231d3c);
+  font-family: didot, serif;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  text-align: center;
+  color: #fff; /* White text color */
+}
+
+.circle {
+  background-color: #c5d3ff; /* White circle background color */
+  border-radius: 50%;
+  padding: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.circle img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.timer {
+  font-size: 24px;
+  margin-top: 20px;
+}
